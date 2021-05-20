@@ -37,6 +37,8 @@ Significa que o programa deverá baixar a pagina web "www.pudim.com.br" com nív
 ### REQUISITOS
 Para execução do programa, é necessário ter a JVM java oracle 16 definida como padrão e o programa wkhtmltopdf instalado.
 
+O executável exe é um programa em C++ compilado. Não utiliza nenhuma biblioteca além das do sistema, mas caso não rode na sua máquina compile o arquivo exe.cpp na sua máquina. É necessário ter o .so da biblioteca opencv e colocá-lo na pasta Agente_lib. Já tem um dentro dessa pasta, basta descomprimi-lo, porém é muito possível que não funcione na sua máquina, caso isso aconteça você terá que baixar o projeto opencv e usar o make deles com as bidings para java (teremos nosso próprio cmake logo, trabalhando nisso).
+
 ### EXECUÇÃO
 Basta ir ao diretório do programa pelo terminal e executar o comando: ./exe
 - Com isso o programa irá ler o arquivo t.txt para input.
