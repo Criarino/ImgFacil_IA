@@ -1,6 +1,8 @@
 # ImgFacil_IA
 Projeto de IA em Java
 
+Um programa que usa uma gente IA de reconhecimento de padrões para baixar qualquer imagem da internet que seu browser consiga mostrar. O agente é feito em Java usando a biblioteca OpenCV, com uma pequena parte em C++.
+
 Alunos:
 - Richard Fernandes Pereira
 - Giovannini Barbosa
